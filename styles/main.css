@@ -1,0 +1,32 @@
+#header{
+  background-color:black;
+  color:white;
+  padding:15px;
+}
+body{
+  background-color:#fa0b55;
+  font-family:
+}
+#container{
+  background-color:yellow;
+  width:900px;
+    margin-left:auto;
+  margin-right:auto;
+}
+#contents{
+  padding:50px;
+}
+#nav{
+  width:180px;
+    float:left;
+}
+#main{
+  width:900px;
+  float:right;
+}
+#footer{
+  clear:both;
+  padding:10px;
+    background-color:yellow;
+  text-align:right;
+  }
