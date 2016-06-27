@@ -50,7 +50,10 @@ nav {
   background-color: orange;
   font-size:20px;
 }
-
+h3 {
+  color:#ff00b9;
+  font-size:30px;
+}
 ol{
   font-size:20px;
   color: red;
@@ -59,10 +62,6 @@ ol{
   padding:10px;
 }
 
-h3 {
-  color:#ff00b9;
-  font-size:30px;
-}
 u{
   color:deepskyblue
 }
