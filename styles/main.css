@@ -36,7 +36,7 @@ footer {
 }
 
 strong {
-  font-size:25px;
+  font-size:40px;
   color: red;
 }
 
@@ -50,10 +50,7 @@ nav {
   background-color: orange;
   font-size:20px;
 }
-h3 {
-  color:#ff00b9;
-  font-size:30px;
-}
+
 ol{
   font-size:20px;
   color: red;
@@ -62,6 +59,7 @@ ol{
   padding:10px;
 }
 
-u{
-  color:deepskyblue
+h3 {
+  color:#ff00b9;
+  font-size:30px;
 }
