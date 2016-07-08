@@ -1,38 +1,49 @@
+
 header {
+  background-image:url("https://images3.alphacoders.com/678/678227.jpg");
+  background-size:cover;
+  border:10px solid;
+  border-color:black;
   text-align:center;
-  background-color: green;
   color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
   font-style:italic;
-  font-size: 70px;
+
 }
 
 h2 {
+  color:white;
   font-style: italic;
-  font-size:50px;
+  font-size:70px;
 }
 
 body {
-  background-color: yellow;
+  background-image:
+    url("http://74211.com/wallpaper/picture_big/Background-for-the-Computer-Sea-Storm-the-Light-to-Make-One-Feel-Safe-and-Comfortable.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  width:90%;
+
   padding:20px;
 }
 
 main {
   font-size:40px;
   text-align:center;
-  width: 700px;
+  max-width: 900px;
   float: right;
   padding: 10px;
 }
 
 footer {
   font-size:1rem;
-  text-align:right;
+  text-align:center;
   clear: both;
-  padding: 20px;
+  color:#ffffff;
+  margin-top:60px;
 }
 
 strong {
@@ -40,14 +51,14 @@ strong {
   color: red;
 }
 
-p {
-  font-family: 'Oswald', sans-serif;
-  color: teal;
+p {font-size:30px;
+ font-family: 'Gloria Hallelujah', cursive;
+  color:#a46a00;
 }
 
 nav {
   text-align:center;
-  background-color: orange;
+  background-color:#b4ffff;
   font-size:20px;
 }
 
@@ -56,10 +67,27 @@ ol{
   color: red;
   text-align:left;
   font-family: 'Bree Serif', serif;
-  padding:10px;
+  padding:20px;
 }
-
+.sports h3{
+  font-size:35px;
+  font-family: 'Pacifico', cursive;
+  }
 h3 {
-  color:#ff00b9;
-  font-size:30px;
+  color:#830060;
+  font-size:40px;
+}
+@media only screen and (max-width: 500px){
+  header h1
+  {
+    font-size:50px;
+  }
+}
+@media only screen and (min-width: 850px){
+  header {
+        padding: 15% 3%;
+  }
+  header h1{
+    font-size: 9vw;
+  }
 }
